@@ -1,16 +1,15 @@
 {
   "type": "cosmos",
   "value": {
-    "key": "wallet",
+    "key": "keepit",
     "chain-id": "GAIA",
-    "rpc-addr": "http://45.94.58.203:23657",
+    "rpc-addr": "http://65.108.80.183:23657",
     "account-prefix": "cosmos",
     "keyring-backend": "test",
     "gas-adjustment": 1.2,
-    "gas-prices": "0.000uatom",
-    "gas": 200000,
+    "gas-prices": "0.001uatom",
+    "debug": true,
     "timeout": "20s",
-    "trusting-period": "8h",
     "output-format": "json",
     "sign-mode": "direct"
   }
